@@ -50,7 +50,7 @@ RUN update-alternatives --install /usr/local/bin/python3 python3 /usr/bin/python
 RUN git clone --depth 1 --branch v1.0.1 https://github.com/dauparas/ProteinMPNN.git
 
 # Install ProteinMPNN dependencies
-RUN pip3 install \
+RUN /usr/local/bin/pip3 install \
     torch==2.4.0 \
     numpy==1.24.4
     
