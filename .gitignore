@@ -1,6 +1,9 @@
 # Don't upload my notes
 notes/
 
+# don't upload any nextflow logs
+.nextflow.logs
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
